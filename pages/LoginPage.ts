@@ -30,7 +30,7 @@ export class LoginPage {
 
     /**
      * Sets the password in the password field
-     * @param pwd - Password to enter
+     * @param pwd - Password to enter as
      */
     async setPassword(pwd: string) {
         await this.txtPassword.fill(pwd);
